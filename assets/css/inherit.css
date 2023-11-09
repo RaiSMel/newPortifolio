@@ -1,0 +1,19 @@
+:root {
+    --primary-color: #fff;
+    --secondary-color: #dedede;
+    --third-color: #61befb;
+    --fourth-color: #aeaeae;
+    --fifth-color: #000;
+    --grid-projetos: clamp(100px, calc(50% - 10px), 400px);
+    --font-bold: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body__container {
+    color: var(--fifth-color);
+    display: grid;
+    grid-template: 8vh auto 30vh / max(180px, 15vw) 5fr;
+    grid-template-areas: "aside header" "aside main" "aside footer";
+    transition: .7s all;
+}

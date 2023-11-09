@@ -1,0 +1,49 @@
+@media screen and (max-width: 867px) {
+
+    /* inherit.css */
+    .body__container {
+        grid-template-rows: 8vh auto 50vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* inherit.css */
+    .body__container {
+        grid-template-columns: 0px 5fr;
+    }
+
+    /* footer.css */
+    .footer {
+        padding: 12px 0;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    /* inherit.css */
+    .body__container {
+        grid-template-rows: 120px auto 500px;
+    }
+
+    /* header.css  */
+    .search {
+        align-items: center;
+        flex-wrap: wrap-reverse;
+    }
+
+    /* main.css  */
+    .projetos {
+        grid-template-columns: 100%;
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    /* header.css  */
+    .search {
+        justify-content: center;
+    }
+}

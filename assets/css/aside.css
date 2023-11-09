@@ -1,0 +1,52 @@
+.aside {
+    background-color: var(--primary-color);
+    border-right: 1px solid var(--fifth-color);
+    grid-area: aside;
+    padding: 5vh 0;
+}
+
+.dashboard {
+    display: flex;
+    flex-flow: column;
+}
+
+.dashboard ul {
+    margin: 0 auto;
+}
+
+.dashboard a {
+    color: var(--fifth-color);
+    font-family: var(--font-bold);
+    text-shadow: 1px 1px 7px var(--fourth-color);
+    transition: .3s all;
+}
+
+.dashboard a:hover {
+    transform: scale(1.1);
+}
+
+.d__item {
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+}
+
+.d__item--title {
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+.d__item--text {
+    font-size: 1.2rem;
+}
+
+.d--imagem {
+    width: 15px;
+    height: 15px;
+    background-position: center;
+    background-size: cover;
+}
+
+.d--imagem.one {
+    background-image: url(../img/dash.png);
+}
